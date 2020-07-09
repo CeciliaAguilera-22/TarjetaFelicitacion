@@ -37,13 +37,13 @@ function obj(){
     }
     switch (n) {
     case 'a':
-    document.getElementById("img").src="../imagenes/1.jpg";
+    document.getElementById("img").src="./imagenes/1.jpg";
     break;
     case 'b':
-    document.getElementById("img").src="../imagenes/2.jpg";
+    document.getElementById("img").src="./imagenes/2.jpg";
     break;
     case 'c':
-    document.getElementById("img").src="../imagenes/3.jpg";
+    document.getElementById("img").src="./imagenes/3.jpg";
     break;
     
       default:
